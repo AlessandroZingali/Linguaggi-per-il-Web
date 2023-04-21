@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Yallowtail;
+  src: url('Yellowtail-Regular.ttf') format('truetype');
+}
+
+
+
+body{
+  background-color: #df92d3;
+  position: absolute;
+  
+  
+  
+}
+
+.menu{
+  /*border: 2px solid;*/
+  position: fixed;
+  border-color: black;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow:  10px  10px 5px #ecbee4,
+              -10px -10px 5px #ecbee4,
+               10px -10px 5px #ecbee4,
+              -10px  10px 5px #ecbee4;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 50%;
+
+  
+  background-color: #25be3d;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+
+
+.menu h1{
+  font-family: Yallowtail;
+}
+
+.menu a{
+  text-decoration: underline overline dotted #d266c1;
+  text-decoration-thickness: 10%;
+  margin-left:10%
+
+}
+.prodotti{
+	text-decoration:underline overline;
+	text-decoration-thickness:10%;
+	margin-left:20px;
+	font-size:20px;
+}
+
+.hometable{
+	table-layout: auto;
+	position: relative;
+	border: 3px solid black;
+	width: 100%;
+	margin: 100% 100% 100% 100%;
+	size:100%;
+	
+	
+}
+
+.tabellafioridelgiorno{
+	border-color: yellow;
+	position: relative;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow:  10px  10px 5px #ecbee4,
+				-10px -10px 5px #ecbee4,
+				 10px -10px 5px #ecbee4,
+                -10px  10px 5px #ecbee4;
+	background-color: #25be3d;
+	margin-top:0%;
+	border:30; 
+	cellspacing:4; 
+	cellpadding:4;
+	
+}
